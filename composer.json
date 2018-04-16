@@ -30,7 +30,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": ["Leanwebstart\\CiviAPI3\\CiviApi3ServiceProvider"]
+            "providers": ["leanwebstart\\civi-api3\\CiviApi3ServiceProvider"]
         }
     },
     "minimum-stability": "dev",
