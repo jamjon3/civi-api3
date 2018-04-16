@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Leanwebstart\\CiviApi3\\": "src"
+            "Leanwebstart\\CiviApi3\\": "src/"
         }
     },
     "extra": {
