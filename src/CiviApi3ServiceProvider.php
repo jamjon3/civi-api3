@@ -2,6 +2,7 @@
 
 namespace Leanwebstart\CiviApi3;
 
+use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 
 class CiviApi3ServiceProvider extends ServiceProvider
