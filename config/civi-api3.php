@@ -81,5 +81,5 @@ return [
     */
 
     'http_user_agent' => env('CIVI_USER_AGENT', 'laravel-civiapi3'),
-    'http_referer' => env('CIVI_HTTP_REFERER', url('/'))
+    'http_referer' => env('CIVI_HTTP_REFERER', env('APP_URL'))
 ];
