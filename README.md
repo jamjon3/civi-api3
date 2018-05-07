@@ -20,7 +20,7 @@ Then you will need to run vendor publish to create the configuration file.
 $ php artisan vendor:publish
 ```
 
-This will create CiviAPI3.php in the config directory. You will need to update the configuration... You shoud set the values in your .env file. Here are the configuration values...
+This will create civi-api3.php in the config directory. You will need to update the configuration... You shoud set the values in your .env file. Here are the configuration values...
 
 #### Host
 Where your host is... this is without the actual path to civi as it varries depending on the integration.
@@ -30,7 +30,7 @@ CIVI_HOST=http://example.com
 #### Integration
 What your CiviCRM is integrated into... can be wordpress, drupal or joomla ... defaults to wordpress if you omit it
 Note:
-You can change the path to civi in the CiviAPI3.php config file... I use wordpress, I put what I could find as paths to the other environment... you might need to adjust them... 
+You can change the path to civi in the civi-api3.php config file... I use wordpress, I put what I could find as paths to the other environment... you might need to adjust them... 
 ```
 CIVI_INTEGRATION=wordpress
 ```
